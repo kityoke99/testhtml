@@ -20,11 +20,11 @@
             <th>03-22441234</th>
            </tr>         
          <?php
-          $serverName = "simplewebtp000000.database.windows.net";
+          $serverName = "simplewebtp045075.database.windows.net";
           $connectionOptions = array(
                                "Database" => "simpleweb",
                                "Uid" => "simpleweb",
-                               "PWD" => "Simple@web");
+                               "PWD" => "Simple_web");
 
          //Establishes the connection
           $conn = sqlsrv_connect($serverName, $connectionOptions);
